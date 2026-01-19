@@ -17,3 +17,9 @@ Replace <DATASET_PATH> with your local dataset directory before execution. */
 SELECT COUNT(*) AS [Total Rows]
 FROM Bronze.crm_cust_info;
 
+/* Note 
+I am Only Showing How to Load the Data in one Table i.e. Bronze.crm_cust_info 
+Go and Write Same SQL BULK Insert to load all your CSV Files in All your Bronze Tables  
+Thank you for your attention. */
+
+
