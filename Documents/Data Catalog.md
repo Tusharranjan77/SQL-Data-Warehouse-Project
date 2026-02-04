@@ -14,7 +14,7 @@ Data in this layer is:
 
 ## 🏗️ Gold Layer Tables
 
-### 1️⃣ `gold.dim_customers`
+### 1️⃣ `Gold.dim_customers`
 
 #### Purpose
 Stores **customer master data** enriched with demographic and geographic attributes.  
@@ -36,7 +36,7 @@ This table enables customer-level analysis such as segmentation, lifetime value 
 
 ---
 
-### 2️⃣ `gold.dim_products`
+### 2️⃣ `Gold.dim_products`
 
 #### Purpose
 Contains **product master data** along with classification, cost, and lifecycle attributes.  
@@ -59,7 +59,7 @@ This dimension supports product-level performance analysis, profitability tracki
 
 ---
 
-### 3️⃣ `gold.fact_sales`
+### 3️⃣ `Gold.fact_sales`
 
 #### Purpose
 Stores **transactional sales data** at the line-item level.  
