@@ -72,8 +72,8 @@ BEGIN
 			PRINT '>>Truncating Table : Bronze.crm_prd_info';
 			TRUNCATE TABLE Bronze.crm_prd_info;
 
-			PRINT '>>> Inserting Data into : Bronze.crm_cust_info';
-			BULK INSERT Bronze.crm_cust_info
+			PRINT '>>> Inserting Data into : Bronze.crm_prd_info';
+			BULK INSERT Bronze.crm_prd_info
 			FROM 'D:\Local Disk D\Courses\SQL\SQL Data Warehouse\sql-data-warehouse-project\datasets\source_crm\prd_info.csv'
 			WITH (
 			FIRSTROW = 2,
